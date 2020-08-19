@@ -12,6 +12,7 @@ From the competition [homepage](https://www.kaggle.com/c/m5-forecasting-accuracy
 This python notebookof is aimed for those who has no experience in retail dataa analysis and show examples of what direction for EDA and modeling they start with.
 
 The notebook shows example for
+
 **Data Handling** 
 * Importing Data with libararies
 * Donwcasting data 
