@@ -1,9 +1,5 @@
 # Retail-Analytics: M5 Forecasting 
 This is a IPython Notebook for the Kaggle competition, M5 Forecasting - Accuracy. The competition is to estimate the unit sales of Walmart retail goods for the next 28 days. This reoisitory is to provide exploratory data analysis and models for prediction by python. 
-  - Data downcasting & Unpivot 
-  - Exploratory data analysis 
-  - Seasonality
-  - Moving average modeling & Explonential smoothing modeling 
 
 ### Kaggle Competition | M5 Forecasting - Accuracy
 > This is one of the two complementary competitions that together comprise the M5 forecasting challenge. Can you estimate, as precisely as possible, the point forecasts of the unit sales of various products sold in the USA by Walmart? 
