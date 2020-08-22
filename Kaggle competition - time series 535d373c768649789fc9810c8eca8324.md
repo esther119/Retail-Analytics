@@ -160,7 +160,8 @@ If one of your column has values between 1 and 10 for example, you will reduce t
 
 **Categorical Columns:** Pandas stores categorical columns as objects. One of the reason this storage is not optimal is that it creates a list of pointers to the memory address of each value of your column. For columns with low cardinality (the amount of unique values is lower than 50% of the count of these values), this can be optimized by forcing pandas to use a virtual mapping table where all unique values are mapped via an integer instead of a pointer. This is done using the category datatype.
 
-Kaggle private and public leadership board
+
+### About Kaggle Competition: Kaggle private and public leadership board
 
 Competition scoring and ranking are based on two leaderboards : public and private. These two leaderboards are created by randomly splitting the test dataset. Public leaderboard is based on a subset of 30% of observations in test dataset you are submitting while the private leaderboard is based on the remaining 70% of data. The private leaderboard remains secret until the end of the competititon. It will determine the final competition ranking!
 
