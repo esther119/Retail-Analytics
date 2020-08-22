@@ -79,8 +79,7 @@ We can define a *window* to apply the moving average model to *smooth* the time 
 
 Def: Exponential smoothing uses a similar logic to moving average, but this time, a different decreasing weight is assigned to each observations. 
 
-<img src="Note-Pictures/5.png" width="20" />
-
+![Alt text](Note-Pictures/5.png)
 
 ![Alt text](Note-Pictures/6.png)
 
