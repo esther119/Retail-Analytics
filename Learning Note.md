@@ -35,7 +35,8 @@ Multiplicative Model: y(t) = Level * Trend * Seasonality * Noise
 
 Def: Informally, **autocorrelation** is the similarity between observations as a function of the time lag between them.
 
-![Kaggle%20competition%20-%20time%20series%20535d373c768649789fc9810c8eca8324/Screen_Shot_2020-07-24_at_2.23.25_PM.png](Kaggle%20competition%20-%20time%20series%20535d373c768649789fc9810c8eca8324/Screen_Shot_2020-07-24_at_2.23.25_PM.png)
+![Alt text](Note-Pictures/autocorrelation.png)
+
 
 e.g. the 1st and the 24th have a high autocorrelation  → we will find similar value at every 24 unit of time → a hint for seasonality
 
@@ -98,9 +99,9 @@ y(t-1): 上一個的預測值
 
 Again, the raw data sequence of observations is represented by {xt}, beginning at time t = 0. We use {st} to represent the smoothed value for time t, and {bt} is our best estimate of the trend at time t.
 
-![Alt text](Note-Pictures/9.png)
+![Alt text](Note-Pictures/9.svg)
 
-![Alt text](Note-Pictures/10.png)
+![Alt text](Note-Pictures/10.svg)
 
 [The Complete Guide to Time Series Analysis and Forecasting](https://towardsdatascience.com/the-complete-guide-to-time-series-analysis-and-forecasting-70d476bfe775)
 
