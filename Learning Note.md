@@ -78,9 +78,9 @@ We can define a *window* to apply the moving average model to *smooth* the time 
 
 Def: Exponential smoothing uses a similar logic to moving average, but this time, a different decreasing weight is assigned to each observations. 
 
-![Kaggle%20competition%20-%20time%20series%20535d373c768649789fc9810c8eca8324/Untitled.png](Kaggle%20competition%20-%20time%20series%20535d373c768649789fc9810c8eca8324/Untitled.png)
+![Alt text](Note-Pictures/3.png)
 
-![Kaggle%20competition%20-%20time%20series%20535d373c768649789fc9810c8eca8324/Screen_Shot_2020-07-24_at_2.47.55_PM.png](Kaggle%20competition%20-%20time%20series%20535d373c768649789fc9810c8eca8324/Screen_Shot_2020-07-24_at_2.47.55_PM.png)
+![Alt text](Note-Pictures/4.png)
 
 0 < smoothing factor <1
 
