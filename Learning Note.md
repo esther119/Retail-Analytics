@@ -47,7 +47,7 @@ Def: **Seasonality** refers to periodic fluctuations.
 
 **Stationarity** is an important characteristic of time series. A time series is said to be stationary if its statistical properties do not change over time. In other words, it has **constant mean and variance**, and covariance is independent of time. 
 
-![Kaggle%20competition%20-%20time%20series%20535d373c768649789fc9810c8eca8324/Screen_Shot_2020-07-24_at_2.23.11_PM.png](Kaggle%20competition%20-%20time%20series%20535d373c768649789fc9810c8eca8324/Screen_Shot_2020-07-24_at_2.23.11_PM.png)
+![Alt text](Note-Pictures/2.png)
 
 e.g. the mean and var do not vary over time in  the plot above 
 
