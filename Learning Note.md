@@ -70,17 +70,17 @@ Def: This model simply states that the next observation is the mean of all past 
 
 We can define a *window* to apply the moving average model to *smooth* the time series, and highlight different trends. 
 
-![Kaggle%20competition%20-%20time%20series%20535d373c768649789fc9810c8eca8324/Screen_Shot_2020-07-24_at_2.27.59_PM.png](Kaggle%20competition%20-%20time%20series%20535d373c768649789fc9810c8eca8324/Screen_Shot_2020-07-24_at_2.27.59_PM.png)
+![Alt text](Note-Pictures/3.png)
 
-![Kaggle%20competition%20-%20time%20series%20535d373c768649789fc9810c8eca8324/Screen_Shot_2020-07-24_at_2.28.04_PM.png](Kaggle%20competition%20-%20time%20series%20535d373c768649789fc9810c8eca8324/Screen_Shot_2020-07-24_at_2.28.04_PM.png)
+![Alt text](Note-Pictures/4.png)
 
 ### Exponential smoothing
 
 Def: Exponential smoothing uses a similar logic to moving average, but this time, a different decreasing weight is assigned to each observations. 
 
-![Alt text](Note-Pictures/3.png)
+![Alt text](Note-Pictures/5.png)
 
-![Alt text](Note-Pictures/4.png)
+![Alt text](Note-Pictures/6.png)
 
 0 < smoothing factor <1
 
@@ -88,9 +88,9 @@ x(t): 上一個實際值
 
 y(t-1): 上一個的預測值
 
-![Kaggle%20competition%20-%20time%20series%20535d373c768649789fc9810c8eca8324/Screen_Shot_2020-07-24_at_2.30.26_PM.png](Kaggle%20competition%20-%20time%20series%20535d373c768649789fc9810c8eca8324/Screen_Shot_2020-07-24_at_2.30.26_PM.png)
+![Alt text](Note-Pictures/7.png)
 
-![Kaggle%20competition%20-%20time%20series%20535d373c768649789fc9810c8eca8324/Screen_Shot_2020-07-24_at_2.39.12_PM.png](Kaggle%20competition%20-%20time%20series%20535d373c768649789fc9810c8eca8324/Screen_Shot_2020-07-24_at_2.39.12_PM.png)
+![Alt text](Note-Pictures/8.png)
 
 ## Double exponential smoothing
 
@@ -98,9 +98,9 @@ y(t-1): 上一個的預測值
 
 Again, the raw data sequence of observations is represented by {xt}, beginning at time t = 0. We use {st} to represent the smoothed value for time t, and {bt} is our best estimate of the trend at time t.
 
-[https://wikimedia.org/api/rest_v1/media/math/render/svg/f3f9515f409cf8de156d8130db6cfab0b114890d](https://wikimedia.org/api/rest_v1/media/math/render/svg/f3f9515f409cf8de156d8130db6cfab0b114890d)
+![Alt text](Note-Pictures/9.png)
 
-[https://wikimedia.org/api/rest_v1/media/math/render/svg/96dfbe119e8203037a0038facb88fd62bf7f5f4f](https://wikimedia.org/api/rest_v1/media/math/render/svg/96dfbe119e8203037a0038facb88fd62bf7f5f4f)
+![Alt text](Note-Pictures/10.png)
 
 [The Complete Guide to Time Series Analysis and Forecasting](https://towardsdatascience.com/the-complete-guide-to-time-series-analysis-and-forecasting-70d476bfe775)
 
